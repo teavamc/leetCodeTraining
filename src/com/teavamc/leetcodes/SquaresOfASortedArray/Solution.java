@@ -17,6 +17,7 @@ public class Solution {
         Arrays.sort(A);
         return A;
     }
+    //快排
     public void sort(int[] A,int begin,int end){
         if (begin < end){
             int left = begin;
