@@ -30,7 +30,7 @@ class Solution {
                 index.add(i);
             }
         }
-        //将S中，每一位与C进行遍历后，取绝对值的最小值
+        //在S中，每一位与C进行遍历后，取绝对值的最小值
         for (int j=0;j<ary_S.length;j++){
             int[] temp = new int[index.size()];
             for (int charIndex = 0;charIndex<index.size();charIndex++){
