@@ -1,5 +1,4 @@
 package com.teavamc.leetcodes.ConstructStringfromBinaryTree;
-
 /**
  * @author 张超 teavamc
  * @Description:
