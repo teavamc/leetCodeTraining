@@ -1,4 +1,4 @@
-package com.teavamc.leetcodes.JewelsAndStones;
+package com.teavamc.leetcodes.SortArrayByParityII;
 
 /**
  * @author 张超 teavamc
