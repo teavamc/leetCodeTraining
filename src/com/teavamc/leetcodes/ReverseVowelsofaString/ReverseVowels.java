@@ -24,6 +24,7 @@ public class ReverseVowels {
     public String reverseVowels(String s) {
         char[] c = s.toCharArray();
         int cLength = c.length;
+        // 双指针
         int left = 0;
         int right = cLength-1;
 
@@ -40,14 +41,14 @@ public class ReverseVowels {
         }
     return new String(c);
     }
-
+    // 是否元音
     boolean isAeiou(char c){
         if("aeiouAEIOU".indexOf(c) != -1){
             return true;
         }
         return false;
     }
-
+    // 交换位置
     void swap(char[] c,int left,int right){
         char t = c[left];
         c[left] = c[right];
