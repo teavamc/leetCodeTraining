@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1a373ff-a28b-4418-b9ee-6f5fd147ff4a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/teavamc/leetcodes/EmployeesMoreThanManagers/solutions.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -55,15 +56,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/teavamc/leetcodes/ReverseString/ReverseString.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/teavamc/leetcodes/ReverseVowelsofaString/ReverseVowels.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
@@ -102,11 +94,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/teavamc/leetcodes/SwapSalary/Solution.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="5" selection-end-column="8" />
+            <state relative-caret-position="66">
+              <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/teavamc/leetcodes/EmployeesMoreThanManagers/solutions.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -139,7 +140,6 @@
         <option value="$PROJECT_DIR$/src/com/teavamc/leetcodes/NumUniqueEmails/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/teavamc/leetcodes/ShortestToChar/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/teavamc/leetcodes/NotBoringMovies/Solution.sql" />
-        <option value="$PROJECT_DIR$/src/com/teavamc/leetcodes/SwapSalary/Solution.sql" />
         <option value="$PROJECT_DIR$/src/com/teavamc/leetcodes/MergeTwoBinaryTrees/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/teavamc/leetcodes/ConstructStringfromBinaryTree/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/teavamc/leetcodes/MaximumProductofThreeNumbers/Solution.java" />
@@ -168,6 +168,8 @@
         <option value="$PROJECT_DIR$/src/com/teavamc/leetcodes/BinarySearch/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/com/teavamc/leetcodes/InvertBinaryTree/InvertBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/com/teavamc/leetcodes/CombineTwoTables/CombineTwoTables.sql" />
+        <option value="$PROJECT_DIR$/src/com/teavamc/leetcodes/SwapSalary/Solution.sql" />
+        <option value="$PROJECT_DIR$/src/com/teavamc/leetcodes/EmployeesMoreThanManagers/solutions.sql" />
       </list>
     </option>
   </component>
@@ -225,7 +227,7 @@
               <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="teavamc" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="leetcodes" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com.teavamc.leetcodes.SwapSalary" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="EmployeesMoreThanManagers" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -236,7 +238,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552441818367" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552442281485" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -280,7 +282,7 @@
       <workItem from="1552095161623" duration="74000" />
       <workItem from="1552095258125" duration="41000" />
       <workItem from="1552095359601" duration="61000" />
-      <workItem from="1552210792579" duration="18391000" />
+      <workItem from="1552210792579" duration="18853000" />
     </task>
     <task id="LOCAL-00001" summary="pass LeetCode 977 &amp; 771">
       <created>1551160764834</created>
@@ -492,11 +494,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552441571462</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="pass(again) leetcode 627">
+      <created>1552441845271</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1552441845271</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69623000" />
+    <option name="totallyTimeSpent" value="70085000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -586,8 +595,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="pass LeetCode 929" />
-    <MESSAGE value="pass LeetCode 821" />
     <MESSAGE value="pass LeetCode 620" />
     <MESSAGE value="pass LeetCode 627" />
     <MESSAGE value="pass LeetCode 617" />
@@ -611,10 +618,11 @@
     <MESSAGE value="pass leetcode 704" />
     <MESSAGE value="pass leetcode 226" />
     <MESSAGE value="pass leetcode 175" />
-    <option name="LAST_COMMIT_MESSAGE" value="pass leetcode 175" />
+    <MESSAGE value="pass leetcode 627" />
+    <MESSAGE value="pass(again) leetcode 627" />
+    <option name="LAST_COMMIT_MESSAGE" value="pass(again) leetcode 627" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/teavamc/leetcodes/SquaresOfASortedArray/Solution.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/teavamc/leetcodes/BigCountries/Solution.sql" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/teavamc/leetcodes/DuplicateEmails/Solution.sql" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/teavamc/leetcodes/ToLowerCase/Solution.java" />
@@ -796,8 +804,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/teavamc/leetcodes/SwapSalary/Solution.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="5" selection-end-column="8" />
+        <state relative-caret-position="66">
+          <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/teavamc/leetcodes/EmployeesMoreThanManagers/solutions.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
         </state>
       </provider>
     </entry>
